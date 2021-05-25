@@ -47,8 +47,14 @@ Solidity is the programming language used for the Ethereum blockchain (and some 
 Bitcoin is designed to prioritize security instead of apps, which means many things that you can do on Ethereum you can't do with Bitcoin (yet...). You can however use the Bitcoin RPC to read the Bitcoin blockchain (and any other Bitcoin forks/clones like Litecoin, Dogecoin, etc, etc). This is used for on-chain analytics. Anyone running a Bitcoin node can see exactly where/when bitcoin moved from one place to another, the address where it was sent, and other metadata. To use the RPC you need to install and run a Bitcoin node.
 
 ## Places to Learn
+#### Learn Javascript (free)
+[Learn Javascript](https://learnjavascript.online/) is a free intro-level online tutorial for Javascript.
+#### Learn Python (free)
+[Programiz](https://www.programiz.com/python-programming) has a free intro-level online tutorial for python with video.
 #### Codeacademy.com
-[Codeacademy](https://www.codecademy.com/) is a subscription-based place to learn many different languages in a structured way. 
+[Codeacademy](https://www.codecademy.com/) is a subscription-based place to learn many different languages in a structured way.
+#### W3Schools
+[W3Schools](https://www.w3schools.com/) is a reference website for many programming languages. 
 #### datacamp.com
 [Datacamp](https://www.datacamp.com/) is great for learning data-focused languages like Python (and others like R, SQL). It is subscription based so it will cost money, but it is structured in a way to make learning easier.
 #### Udemy.com
