@@ -1,1 +1,8 @@
-# blake_will_shared_learning_depo
+# Shared Learning
+This github will contain folders for learning to code. 
+
+## Base Languages
+Python, Javascript
+
+## Crypto
+Solidity for Ethereum
