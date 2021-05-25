@@ -24,26 +24,35 @@ This is software used for editing code. It is well intergrated with github, and 
 
 ## Basics
 I would suggest starting with Javascript and/or Python. They are the most basic and easy to use, while also being popular and widely used by business/websites. It is probably best to learn HTML/CSS as you go. **Google is your friend**. Any question you have, someone else already had the same question and posted it online at [stackoverflow](https://stackoverflow.com/) where they got an answer. For example, google "python turn list into string" and you will get your answer.
-
-### Javascript
+#### Javascript
 Important language for web and app development. 
-### HTML
+#### HTML
 The language used to structure websites for the last 25 years. Easy. Learn as you go. 
-### CSS
+#### CSS
 CSS is "Custom Style Sheets" and is how websites are styled (choosing fonts/colors/sizes/etc/etc). Easy. Learn as you go.
-### Python
+#### Python
 Great language to learn for day-to-day data projects.
-### SQL
+#### SQL
 The most basic database language, widely used in business and web development. Clunky and hard to read. Websites and businesses use mySQL, noSQL, PostgreSQL for their databases, which are all slightly different.
-### R
+#### R
 An easy to use, easy to read data language. Sort of the midway point between SQL and Python. Not very popular so not necessary to learn. Skip it and go straight to Python.
-
-## Crypto
-### Solidity for Ethereum
+#### Rust
+A difficult base level programming language comparable to C++. Don't start here it will be way too confusing. This is a useful and fast language though.
+### Crypto
+#### Solidity
 Solidity is the programming language used for the Ethereum blockchain (and some others). It is very similar to Javascript. In order to build a dApp (dentralized app) on Ethereum, you will need to code in Solidity, Javascript, and web development stuff like CSS.
+#### Bitcoin RPC
+As you may or may not know, Bitcoin is designed to prioritize security instead of apps, which means many things that you can do on Ethereum you can't do with Bitcoin (yet...). Ethereum makes compromises on security in order to get more usability.
+You can however use the Bitcoin RPC to read the Bitcoin blockchain (and any other change of bitcoin forks/clones like Litecoin, Dogecoin, etc, etc). This is used for on-chain analytics. Anyone running a Bitcoin node can see exactly where/when bitcoin moved from one place to another, the address where it was sent, and other metadata.
 
 ## Places to Learn
-### Codeacademy.com
+#### Codeacademy.com
 [Codeacademy](https://www.codecademy.com/) is a subscription-based place to learn many different languages in a structured way. 
-### datacamp.com
+#### datacamp.com
 [Datacamp](https://www.datacamp.com/) is great for learning data-focused languages like Python (and others like R, SQL). It is subscription based so it will cost money, but it is structured in a way to make learning easier.
+#### Udemy.com
+[Udemy](https://www.udemy.com/) is another subscription-based tutorial website for programming (among other things).
+#### Solidity-by-Example
+[Solidity-by-Example](https://solidity-by-example.org/) has basic code examples for Ethereum contracts. This code is included in the [Solidity folder](https://github.com/willwooten/blake_will_shared_learning_depo/tree/main/Solidity/SolidityByExample) in this github repo.
+#### scaffold-eth
+[scaffold-eth](https://github.com/austintgriffith/scaffold-eth) is a github repository with the building blocks for creating Ethereum dApps. Provides great usable examples of dApps like decentralized exchanges, staking, and NFTs, but no tutorials.
