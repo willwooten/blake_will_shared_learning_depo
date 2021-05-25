@@ -24,6 +24,7 @@ This is software used for editing code. It is well integrated with github, and w
 
 ## Basics
 I would suggest starting with Javascript and/or Python. They are the most basic and easy to use, while also being popular and widely used by business/websites. It is probably best to learn HTML/CSS as you go. 
+
 **Google is your friend**. Any question you have, someone else already had the same question and posted it online at [stackoverflow](https://stackoverflow.com/) where they got an answer. For example, google "python turn list into string" and you will get your answer.
 #### Javascript
 Important language for web and app development. 
