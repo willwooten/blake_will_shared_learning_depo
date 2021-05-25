@@ -23,16 +23,20 @@ This is software used for editing code. It is well intergrated with github, and 
 [Install VS Code](https://code.visualstudio.com/docs/setup/linux)
 
 ## Basics
+I would suggest starting with Javascript and/or Python. They are the most basic and easy to use, while also being popular and widely used by business/websites. It is probably best to learn HTML/CSS as you go. **Google is your friend**. Any question you have, someone else already had the same question and posted it online at [stackoverflow](https://stackoverflow.com/) where they got an answer. For example, google "python turn list into string" and you will get your answer.
+
 ### Javascript
-Important language for web development. 
+Important language for web and app development. 
+### HTML
+The language used to structure websites for the last 25 years. Easy. Learn as you go. 
 ### CSS
-CSS is "Custom Style Sheets" and is how websites are styled (choosing fonts/colors/sizes/etc/etc)
+CSS is "Custom Style Sheets" and is how websites are styled (choosing fonts/colors/sizes/etc/etc). Easy. Learn as you go.
 ### Python
 Great language to learn for day-to-day data projects.
 ### SQL
 The most basic database language, widely used in business and web development. Clunky and hard to read. Websites and businesses use mySQL, noSQL, PostgreSQL for their databases, which are all slightly different.
 ### R
-An easy to use, easy to read data language. Sort of the midway point between SQL and Python. 
+An easy to use, easy to read data language. Sort of the midway point between SQL and Python. Not very popular so not necessary to learn. Skip it and go straight to Python.
 
 ## Crypto
 ### Solidity for Ethereum
