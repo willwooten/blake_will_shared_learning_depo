@@ -17,7 +17,10 @@ The above code will copy this folder onto your computer, and connect it to githu
 
 [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-### Step 3: Install VS Code
+### Step 3: Make Github Account
+Github is where open-source development happens. It is where you'll find most software, tutorials, and where you can work on your own projects and save them.
+
+### Step 4: Install VS Code
 This is software used for editing code. It is well integrated with github, and works with all the languages you'll want to use. 
 
 [Install VS Code](https://code.visualstudio.com/docs/setup/linux)
