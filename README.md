@@ -22,7 +22,7 @@ This is software used for editing code. It is well integrated with github, and w
 
 [Install VS Code](https://code.visualstudio.com/docs/setup/linux)
 
-## Basics
+## Programming Languages
 I would suggest starting with Javascript and/or Python. They are the most basic and easy to use, while also being popular and widely used by business/websites. It is probably best to learn HTML/CSS as you go. 
 
 **Google is your friend**. Any question you have, someone else already had the same question and posted it online at [stackoverflow](https://stackoverflow.com/) where they got an answer. For example, google "python turn list into string" and you will get your answer.
@@ -39,12 +39,12 @@ The most basic database language, widely used in business and web development. C
 #### R
 An easy to use, easy to read data language. Sort of the midway point between SQL and Python. Not very popular so not necessary to learn. Skip it and go straight to Python.
 #### Rust
-A difficult base level programming language comparable to C++. Don't start here it will be way too confusing. This is a useful and fast language though.
+A difficult base level programming language comparable to C++. Don't start here it will be way too confusing. This is a useful and fast language though after you've gotten a handle on Python/Javascript.
 ### Crypto
 #### Solidity
 Solidity is the programming language used for the Ethereum blockchain (and some others). It is very similar to Javascript. In order to build a dApp (decentralized app) on Ethereum, you will need to code in Solidity, Javascript, and web development stuff like CSS.
 #### Bitcoin RPC
-Bitcoin is designed to prioritize security instead of apps, which means many things that you can do on Ethereum you can't do with Bitcoin (yet...). You can however use the Bitcoin RPC to read the Bitcoin blockchain (and any other Bitcoin forks/clones like Litecoin, Dogecoin, etc, etc). This is used for on-chain analytics. Anyone running a Bitcoin node can see exactly where/when bitcoin moved from one place to another, the address where it was sent, and other metadata.
+Bitcoin is designed to prioritize security instead of apps, which means many things that you can do on Ethereum you can't do with Bitcoin (yet...). You can however use the Bitcoin RPC to read the Bitcoin blockchain (and any other Bitcoin forks/clones like Litecoin, Dogecoin, etc, etc). This is used for on-chain analytics. Anyone running a Bitcoin node can see exactly where/when bitcoin moved from one place to another, the address where it was sent, and other metadata. To use the RPC you need to install and run a Bitcoin node.
 
 ## Places to Learn
 #### Codeacademy.com
@@ -53,6 +53,8 @@ Bitcoin is designed to prioritize security instead of apps, which means many thi
 [Datacamp](https://www.datacamp.com/) is great for learning data-focused languages like Python (and others like R, SQL). It is subscription based so it will cost money, but it is structured in a way to make learning easier.
 #### Udemy.com
 [Udemy](https://www.udemy.com/) is another subscription-based tutorial website for programming (among other things).
+#### Programming Bitcoin
+[Programming Bitcoin](https://github.com/jimmysong/programmingbitcoin) is a book/github to learn the very basics of blockchain technology. This is not only helpful for Bitcoin but also understanding Ethereum. Includes code/lessons on cryptography, creating bitcoin transactions from scratch, and more. This is how I learned.
 #### Ethereum Developer Portal
 The [Ethereum.org](https://ethereum.org/en/developers/) website has a section for learning Solidity and Ethereum development.
 #### Solidity-by-Example
@@ -60,4 +62,4 @@ The [Ethereum.org](https://ethereum.org/en/developers/) website has a section fo
 #### scaffold-eth
 [scaffold-eth](https://github.com/austintgriffith/scaffold-eth) is a github repository with the building blocks for creating Ethereum dApps. Provides great usable examples of dApps like decentralized exchanges, staking, and NFTs, but no tutorials.
 #### Remix
-[Remix](https://remix.ethereum.org/) is an online IDE (integrated development environment) for Ethereum. There you can code/edit/deploy contracts onto the Ethereum blockchain. 
+[Remix](https://remix.ethereum.org/) is an online IDE (integrated development environment) for Ethereum. There you can code/edit/deploy contracts onto the Ethereum blockchain.
