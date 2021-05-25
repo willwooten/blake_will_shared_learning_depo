@@ -1,0 +1,52 @@
+//SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.1;
+
+contract MappingsStructExample {
+    
+    // stores the amount and the timestamp of the payment. 
+    
+    struct Payment {
+        uint amount;
+        uint timestamp;
+    }
+    
+    // stores the total balance and a mapping of all payments done
+    // In order to store the length of the payments mapping, we have an additional helper variable numPayments
+    
+    struct Balance {
+        uint totalBalance;
+        uint numPayments;
+        mapping(uint => Payment) payments;
+    }
+
+    mapping(address => uint) public balanceReceived;
+
+    function getBalance() public view returns(uint) {
+        return address(this).balance;
+    }
+
+    //  someone sends money using the "sendMoney" function, we track the msg.value in BalancedReceived Mapping
+    function sendMoney() public payable {
+        balanceReceived[msg.sender].totalBalance += msg.value;
+
+        Payment memory payment = Payment(msg.value, block.timestamp);
+        balanceReceived[msg.sender].payments[balanceReceived[msg.sender].numPayments] = payment;
+        balanceReceived[msg.sender].numPayments++;
+    }
+    
+    function withdrawMoney(address payable _to, uint _amount) public {
+        require(_amount <= balanceReceived[msg.sender].totalBalance, "not enough funds");
+        balanceReceived[msg.sender].totalBalance -= _amount;
+        _to.transfer(_amount);
+    }
+    
+    //  If that same person tries to withdraw money again using "withdrawAllMoney", we look in that mapping 
+    //  how much he sent there previously, then reset the mapping and send the amount.
+    
+    function withdrawAllMoney(address payable _to) public {
+        uint balanceToSend = balanceReceived[msg.sender].totalBalance;
+        balanceReceived[msg.sender].totalBalance = 0;
+        _to.transfer(balanceToSend);
+    }
+}

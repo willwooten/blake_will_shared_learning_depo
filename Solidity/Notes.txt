@@ -1,0 +1,30 @@
+
+Address
+    .balance                # gwei
+    .tranfer(Amount)        # gwei
+    .send()                 # Bool
+        ---- stops cascading exceptions, flips FALSE cancels transaction
+        ---- watch out for *re-entrancy dangers*
+    .call.gas.value()()     # gwei
+
+    .send() and .transfer() send gas stipend, limits amount of gas for transaction
+
+Global Objects
+---- contain info about transaction
+---- most important are:
+        msg.sender          # initializing address 
+        msg.value           # gwei 
+        now                 # timestamp
+
+Payable Function Address
+---- cannot receive ETH unless *payable*
+---- transaction fails if ETH sent to Function address not payable
+
+Rule of thumb: You interact with outside addresses last, no matter what.
+
+Mappings have no length. It's important to understand this. 
+Arrays have a length, but, because how mappings are stored internally, they do not have a length.
+
+Let's say you have a mapping mapping(uint => uint) myMapping, 
+then all elements myMapping[0], myMapping[1], myMapping[123123], ... 
+are already initialized with the default value
