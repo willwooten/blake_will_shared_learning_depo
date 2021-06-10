@@ -48,6 +48,8 @@ A difficult base level programming language comparable to C++. Don't start here 
 Solidity is the programming language used for the Ethereum blockchain (and some others). It is very similar to Javascript. In order to build a dApp (decentralized app) on Ethereum, you will need to code in Solidity, Javascript, and web development stuff like CSS.
 #### Bitcoin RPC
 Bitcoin is designed to prioritize security instead of apps, which means many things that you can do on Ethereum you can't do with Bitcoin (yet...). You can however use the Bitcoin RPC to read the Bitcoin blockchain (and any other Bitcoin forks/clones like Litecoin, Dogecoin, etc, etc). This is used for on-chain analytics. Anyone running a Bitcoin node can see exactly where/when bitcoin moved from one place to another, the address where it was sent, and other metadata. To use the RPC you need to install and run a Bitcoin node.
+#### Sapio
+A Smart Contract language for Bitcoin. Based on Rust, this is the proposed 'Solidity'-type contract language to expand the capabiltiies of Bitcoin. This is **not** currently implemented in the Bitcoin Core code. It is a BIP (Bitcoin Inmprovement Proposal) that could be merged into the core code in the future. 
 
 ## Places to Learn
 #### Learn Javascript (free)
