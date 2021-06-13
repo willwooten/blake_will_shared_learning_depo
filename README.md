@@ -41,6 +41,8 @@ Great language to learn for day-to-day data projects. Currently the most popular
 The most basic database language, widely used in business and web development. Clunky and hard to read. Websites and businesses use mySQL, noSQL, PostgreSQL for their databases, which are all slightly different.
 #### R
 An easy to use, easy to read data language. Sort of the midway point between SQL and Python. Not very popular so not necessary to learn. Skip it and go straight to Python.
+#### Go
+Go (or golang) is a popular choice for developers.
 #### Rust
 A difficult base level programming language comparable to C++. Don't start here it will be way too confusing. This is a useful and fast language though after you've gotten a handle on Python/Javascript.
 ### Crypto
@@ -50,7 +52,8 @@ Solidity is the programming language used for the Ethereum blockchain (and some 
 Bitcoin is designed to prioritize security instead of apps, which means many things that you can do on Ethereum you can't do with Bitcoin (yet...). You can however use the Bitcoin RPC to read the Bitcoin blockchain (and any other Bitcoin forks/clones like Litecoin, Dogecoin, etc, etc). This is used for on-chain analytics. Anyone running a Bitcoin node can see exactly where/when bitcoin moved from one place to another, the address where it was sent, and other metadata. To use the RPC you need to install and run a Bitcoin node.
 #### Sapio
 A Smart Contract language for Bitcoin. Based on Rust, this is the proposed 'Solidity'-type contract language to expand the capabiltiies of Bitcoin. This is **not** currently implemented in the Bitcoin Core code. It is a BIP (Bitcoin Inmprovement Proposal) that could be merged into the core code in the future. 
-
+#### Lightning Network
+The Lightning Network is a Layer-2 expanding the capabilities of Bitcoin. It is not a programming language. Implementations of Lightning are written in languages like C, Go, and Rust. 
 ## Places to Learn
 #### Learn Javascript (free)
 [Learn Javascript](https://learnjavascript.online/) is a free intro-level online tutorial for Javascript.
